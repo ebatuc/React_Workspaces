@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import TodoList from './TodoList';
+import NotePad from './UserCreate';
+import UserCreate from './UserCreate';
 
 function App() {
   return (
@@ -10,10 +11,9 @@ function App() {
           <div class="col">
           </div>
           <div class="col">
-            <TodoList />
+            <UserCreate />
           </div>
           <div class="col">
-          
           </div>
         </div>
       </div>
