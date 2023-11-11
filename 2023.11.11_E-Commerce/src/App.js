@@ -7,6 +7,7 @@ import {
 import Navi from './Navi';
 import Category from './Category';
 import Product from './Product';
+import DataEntry from './DataEntry';
 import { useState } from 'react';
 
 function App() {
@@ -48,6 +49,21 @@ function App() {
   };
 
 
+  //! State variables for DataEntry Inputs
+  const [name, setName] = useState("");
+  const [price, setPrice] = useState("");
+  const [description, setDescription] = useState("");
+  const [uploadimg, setuploadimg] = useState("");
+
+
+
+
+
+
+
+
+
+
   return (
     <div>
       <Navi fluid cartCount={cartCount} showCart={showCart} clearCart={clearCart} cartItems={cartItems} addToCart={addToCart} />
@@ -57,6 +73,7 @@ function App() {
         <Row>
           <Col xs="3" className='mt-5 ps-3'>
             <Category categoryArray={categoryArray} />
+            <DataEntry name={name} price={price} description={description} uploadimg={uploadimg}/>
           </Col>
           <Col xs="9" className='mt-5 pe-3'>
             <Product productArray={productArray} addToCart={addToCart} />
