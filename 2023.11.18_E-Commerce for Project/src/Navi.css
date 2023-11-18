@@ -1,0 +1,38 @@
+.borderline{
+    border-left: solid 1px black;
+}
+
+.borderset{
+    border: none;
+    border-radius: 0 0 3% 3% !important;
+}
+
+.navmarginBT{
+margin-bottom: 5%;
+}
+
+
+
+ .navbar-nav .nav-link,
+ .dropdown-menu .dropdown-item
+  {
+    color: #000;
+    transition: border-radius 0.3s ease, background-color 0.3s ease; 
+} 
+
+
+.navbar-nav .nav-link:hover,
+.dropdown-menu .dropdown-item:hover
+{
+    border-radius: 5px;
+    background-color: #e2e2e2; 
+}
+
+
+
+
+@media(max-width:768px){
+    .navmarginBT{
+        margin-bottom: 20%;
+        }
+}

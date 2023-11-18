@@ -1,0 +1,392 @@
+{
+"orders": [
+{
+  "id":
+  ""
+}
+
+
+
+
+
+
+],
+
+
+
+
+
+  "category": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Clothing,Shoes "
+    },
+    {
+      "id": 3,
+      "name": "Home,Furniture"
+    },
+    {
+      "id": 4,
+      "name": "Sports,Outdoors"
+    },
+    {
+      "id": 5,
+      "name": "Movies,Books"
+    },
+    {
+      "id": 6,
+      "name": "Patio,Garden"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "header": "Smartphone X",
+      "desc": "Next-generation smartphone technology. This phone, equipped with advanced features, is designed to meet your daily needs.",
+      "image": "https://picsum.photos/800/600",
+      "favNum": 18,
+      "banner": "1",
+      "price": 1500,
+      "tag": [
+        "smartphone",
+        "technology",
+        "cell phone"
+      ]
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "header": "Laptop Pro",
+      "desc": "High-performance laptop. With a powerful processor and ample storage capacity, this laptop is an ideal choice for work and entertainment.",
+      "image": "https://picsum.photos/810/600",
+      "favNum": 17,
+      "banner": 1,
+      "price": 2500,
+      "tag": [
+        "laptop",
+        "computer",
+        "technology"
+      ]
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "header": "4K Ultra HD Television",
+      "desc": "Ultra-high-definition television experience. Enjoy home theater with a large screen and crystal-clear image.",
+      "image": "https://picsum.photos/801/600",
+      "favNum": 20,
+      "banner": 0,
+      "price": 3500,
+      "tag": [
+        "television",
+        "home theater",
+        "4K"
+      ]
+    },
+    {
+      "id": 4,
+      "categoryId": 4,
+      "header": "Gaming Console Deluxe",
+      "desc": "Immersive gaming experience with the latest console technology. Play your favorite games with stunning graphics and high-speed performance.",
+      "image": "https://picsum.photos/802/600",
+      "favNum": 18,
+      "banner": 0,
+      "price": 500,
+      "tag": [
+        "gaming",
+        "console",
+        "video games"
+      ]
+    },
+    {
+      "id": 5,
+      "categoryId": 5,
+      "header": "Wireless Earbuds",
+      "desc": "Enjoy music without the hassle of wires. These wireless earbuds provide high-quality sound and a comfortable fit.",
+      "image": "https://picsum.photos/803/600",
+      "favNum": 22,
+      "banner": 1,
+      "price": 78,
+      "tag": [
+        "audio",
+        "music",
+        "wireless"
+      ]
+    },
+    {
+      "id": 6,
+      "categoryId": 6,
+      "header": "Smart Home Security System",
+      "desc": "Keep your home safe with the latest smart security technology. Monitor and control your home security from anywhere.",
+      "image": "https://picsum.photos/800/601",
+      "favNum": 17,
+      "banner": 0,
+      "price": 90,
+      "tag": [
+        "smart home",
+        "security",
+        "technology"
+      ]
+    },
+    {
+      "id": 7,
+      "categoryId": 6,
+      "header": "Portable Bluetooth Speaker",
+      "desc": "Take your music anywhere with a portable Bluetooth speaker. Enjoy high-quality sound with long battery life.",
+      "image": "https://picsum.photos/800/602",
+      "favNum": 30,
+      "banner": 0,
+      "price": 222,
+      "tag": [
+        "audio",
+        "music",
+        "portable"
+      ]
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "header": "Ultra-Thin Laptop",
+      "desc": "Sleek and lightweight laptop for on-the-go productivity. Thin design with powerful performance for professionals.",
+      "image": "https://picsum.photos/800/603",
+      "favNum": 25,
+      "banner": 0,
+      "price": 335,
+      "tag": [
+        "laptop",
+        "computer",
+        "thin"
+      ]
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "header": "Elegant Art Print",
+      "desc": "Decorate your space with elegant art prints. High-quality prints of famous artworks for a touch of sophistication.",
+      "image": "https://picsum.photos/804/600",
+      "favNum": 28,
+      "banner": 0,
+      "price": 464,
+      "tag": [
+        "art",
+        "decor",
+        "print"
+      ]
+    },
+    {
+      "id": 10,
+      "categoryId": 4,
+      "header": "Fitness Tracker Watch",
+      "desc": "Monitor your health and fitness with a smart tracker watch. Track your workouts, sleep, and overall well-being.",
+      "image": "https://picsum.photos/800/605",
+      "favNum": 32,
+      "banner": 1,
+      "price": 465,
+      "tag": [
+        "fitness",
+        "tracker",
+        "wearable"
+      ]
+    },
+    {
+      "id": 11,
+      "categoryId": 1,
+      "header": "High-Speed Gaming Mouse",
+      "desc": "Enhance your gaming experience with a high-speed gaming mouse. Precision and customizable settings for competitive gaming.",
+      "image": "https://picsum.photos/805/600",
+      "favNum": 15,
+      "banner": 0,
+      "price": 150,
+      "tag": [
+        "gaming",
+        "mouse",
+        "accessory"
+      ]
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "header": "Professional Camera Kit",
+      "desc": "Capture stunning images with a professional camera kit. High-resolution camera with versatile lenses for photography enthusiasts.",
+      "image": "https://picsum.photos/800/606",
+      "favNum": 10,
+      "banner": 0,
+      "price": 6468,
+      "tag": [
+        "camera",
+        "photography",
+        "professional"
+      ]
+    },
+    {
+      "id": 13,
+      "categoryId": 3,
+      "header": "Contemporary Art Collection",
+      "desc": "Explore a collection of contemporary art. Unique and thought-provoking artworks from emerging artists.",
+      "image": "https://picsum.photos/806/600",
+      "favNum": 20,
+      "banner": 0,
+      "price": 25,
+      "tag": [
+        "art",
+        "contemporary",
+        "collection"
+      ]
+    },
+    {
+      "id": 14,
+      "categoryId": 4,
+      "header": "Wireless Charging Pad",
+      "desc": "Convenient wireless charging for your devices. Sleek design with fast-charging capability for modern lifestyles.",
+      "image": "https://picsum.photos/800/607",
+      "favNum": 18,
+      "banner": 0,
+      "price": 36,
+      "tag": [
+        "charging",
+        "wireless",
+        "technology"
+      ]
+    },
+    {
+      "id": 15,
+      "categoryId": 5,
+      "header": "Classic Vinyl Records Set",
+      "desc": "Rediscover the magic of classic vinyl records. A set of timeless albums for music enthusiasts and collectors.",
+      "image": "https://picsum.photos/808/600",
+      "favNum": 22,
+      "banner": 1,
+      "price": 466,
+      "tag": [
+        "music",
+        "vinyl",
+        "collectible"
+      ]
+    },
+    {
+      "id": 16,
+      "categoryId": 6,
+      "header": "Smart Thermostat",
+      "desc": "Efficiently control your home's temperature with a smart thermostat. Energy-saving features for a comfortable and eco-friendly home.",
+      "image": "https://picsum.photos/800/609",
+      "favNum": 17,
+      "banner": 0,
+      "price": 220,
+      "tag": [
+        "smart home",
+        "thermostat",
+        "energy-saving"
+      ]
+    },
+    {
+      "id": 17,
+      "categoryId": 6,
+      "header": "Handcrafted Leather Bag",
+      "desc": "Elevate your style with a handcrafted leather bag. Quality materials and craftsmanship for a timeless accessory.",
+      "image": "https://picsum.photos/809/600",
+      "favNum": 30,
+      "banner": 0,
+      "price": 465,
+      "tag": [
+        "fashion",
+        "accessory",
+        "leather"
+      ]
+    },
+    {
+      "id": 18,
+      "categoryId": 6,
+      "header": "Digital Art Tablet",
+      "desc": "Unleash your creativity with a digital art tablet. Sketch, draw, and design with precision for artists and designers.",
+      "image": "https://picsum.photos/800/610",
+      "favNum": 25,
+      "banner": 0,
+      "price": 876,
+      "tag": [
+        "art",
+        "digital",
+        "tablet"
+      ]
+    },
+    {
+      "id": 19,
+      "categoryId": 6,
+      "header": "Outdoor Adventure Backpack",
+      "desc": "Embark on outdoor adventures with a durable backpack. Designed for hiking, camping, and exploring the great outdoors.",
+      "image": "https://picsum.photos/811/600",
+      "favNum": 28,
+      "banner": 1,
+      "price": 150,
+      "tag": [
+        "outdoor",
+        "adventure",
+        "backpack"
+      ]
+    },
+    {
+      "id": 20,
+      "categoryId": 6,
+      "header": "Home Office Desk",
+      "desc": "Create a productive home office with a stylish desk. Functional design with ample storage for a comfortable workspace.",
+      "image": "https://picsum.photos/800/611",
+      "favNum": 34,
+      "banner": 0,
+      "price": 421,
+      "tag": [
+        "furniture",
+        "office",
+        "desk"
+      ]
+    },
+    {
+      "id": 21,
+      "categoryId": 1,
+      "header": "Noise-Canceling Headphones",
+      "desc": "Immerse yourself in music with noise-canceling headphones. Enjoy a premium audio experience with comfort and style.",
+      "image": "https://picsum.photos/812/600",
+      "favNum": 15,
+      "banner": 0,
+      "price": 90,
+      "tag": [
+        "audio",
+        "headphones",
+        "noise-canceling"
+      ]
+    },
+    {
+      "id": 22,
+      "categoryId": 2,
+      "header": "Home Security Camera System",
+      "desc": "Secure your home with a complete camera system. Monitor and protect your property with advanced security features.",
+      "image": "https://picsum.photos/800/612",
+      "favNum": 10,
+      "banner": 0,
+      "price": 98,
+      "tag": [
+        "security",
+        "camera",
+        "home"
+      ]
+    },
+    {
+      "id": 24,
+      "categoryId": 4,
+      "header": "Home Led Lamb",
+      "desc": "Brigthness for Your Room",
+      "image": "https://picsum.photos/800/612",
+      "favNum": 13,
+      "banner": 0,
+      "price": 10,
+      "tag": [
+        "led",
+        "lamb",
+        "home"
+      ]
+    }
+  ]
+}
