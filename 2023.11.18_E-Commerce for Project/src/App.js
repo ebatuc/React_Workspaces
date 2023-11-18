@@ -6,12 +6,7 @@ import Category from "./component/Category"
 import ProductAlbum from "./component/ProductAlbum"
 import ProductDetail from './component/ProductDetail';
 import OrderDetail from './component/OrderDetail';
-import React from 'react'
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
+
 
 class App extends Component {
   constructor(props) {

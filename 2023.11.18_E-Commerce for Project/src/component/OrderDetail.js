@@ -7,6 +7,7 @@ class OrderDetail extends Component {
 
             <div>
                 selam
+                
             </div>
 
 
