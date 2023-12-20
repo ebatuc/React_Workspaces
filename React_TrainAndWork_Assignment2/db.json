@@ -1,0 +1,185 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Clothing"
+    },
+    {
+      "id": 3,
+      "name": "Books"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Xiaomi",
+      "categories": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Famer",
+      "categories": [
+        3
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "brandId": 1,
+      "name": "Smartphone",
+      "price": 499.99,
+      "slug": "smartphone",
+      "img": "img/smart.jpg",
+      "desc": "A high-quality smartphone with advanced features."
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "brandId": 1,
+      "name": "T-Shirt",
+      "price": 19.99,
+      "slug": "t-shirt",
+      "img": "img/smart.jpg",
+      "desc": "Comfortable cotton T-shirt in various colors."
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "brandId": 2,
+      "name": "Book Title",
+      "price": 29.99,
+      "slug": "book-title",
+      "img": "img/smart.jpg",
+      "desc": "A captivating book with an interesting storyline."
+    }
+  ],
+  "orders": [
+    [
+      {
+        "orderNo": 2,
+        "id": "43d04ad2-c818-43c5-ac14-3a0e10f4767e",
+        "items": [
+          {
+            "id": 2,
+            "categoryId": 2,
+            "brandId": 1,
+            "name": "T-Shirt",
+            "price": 19.99,
+            "slug": "t-shirt",
+            "img": "img/smart.jpg",
+            "desc": "Comfortable cotton T-shirt in various colors.",
+            "quantity": 2
+          },
+          {
+            "id": 1,
+            "categoryId": 1,
+            "brandId": 1,
+            "name": "Smartphone",
+            "price": 499.99,
+            "slug": "smartphone",
+            "img": "img/smart.jpg",
+            "desc": "A high-quality smartphone with advanced features.",
+            "quantity": 1
+          }
+        ],
+        "personalInfo": {
+          "firstName": "asdadssa",
+          "lastName": "ddsadas",
+          "email": "sdşdlds",
+          "phone": "",
+          "company": "",
+          "address1": "",
+          "address2": "",
+          "country": "",
+          "townCity": "",
+          "state": "",
+          "zipCode": ""
+        }
+      }
+    ],
+    [
+      {
+        "orderNo": 2,
+        "id": "71a228f3-d160-431b-b203-acffc23147b5",
+        "items": [
+          {
+            "id": 1,
+            "categoryId": 1,
+            "brandId": 1,
+            "name": "Smartphone",
+            "price": 499.99,
+            "slug": "smartphone",
+            "img": "img/smart.jpg",
+            "desc": "A high-quality smartphone with advanced features.",
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "categoryId": 2,
+            "brandId": 1,
+            "name": "T-Shirt",
+            "price": 19.99,
+            "slug": "t-shirt",
+            "img": "img/smart.jpg",
+            "desc": "Comfortable cotton T-shirt in various colors.",
+            "quantity": 1
+          }
+        ],
+        "personalInfo": {
+          "firstName": "aldşkş",
+          "lastName": "ÇELİK",
+          "email": "",
+          "phone": "",
+          "company": "",
+          "address1": "",
+          "address2": "",
+          "country": "",
+          "townCity": "",
+          "state": "",
+          "zipCode": ""
+        }
+      }
+    ],
+    [
+      {
+        "orderNo": 3,
+        "id": "a277667d-e6d5-4fc7-bc0c-ba7d3b07e5e1",
+        "items": [
+          {
+            "id": 1,
+            "categoryId": 1,
+            "brandId": 1,
+            "name": "Smartphone",
+            "price": 499.99,
+            "slug": "smartphone",
+            "img": "img/smart.jpg",
+            "desc": "A high-quality smartphone with advanced features.",
+            "quantity": 1
+          }
+        ],
+        "personalInfo": {
+          "firstName": "DLŞF",
+          "lastName": "ŞLDŞA",
+          "email": "",
+          "phone": "",
+          "company": "",
+          "address1": "",
+          "address2": "",
+          "country": "",
+          "townCity": "",
+          "state": "",
+          "zipCode": ""
+        }
+      }
+    ]
+  ]
+}
